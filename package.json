@@ -9,7 +9,7 @@
     "start": "webpack serve --config ./config/webpack.config.dev.js"
   },
   "dependencies": {
-    "@altesc/stdio": "^0.2.1",
+    "@altesc/stdio": "^0.2.7",
     "p5": "^1.4.2"
   },
   "devDependencies": {
