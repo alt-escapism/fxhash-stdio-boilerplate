@@ -16,6 +16,9 @@ module.exports = {
         errors: true,
         warnings: false,
       },
+      webSocketURL: {
+        hostname: "localhost",
+      },
     },
   },
   plugins: [...config.plugins, new StdioWebpackPlugin()],
